@@ -5,16 +5,16 @@
   # uses: veracode/veracode-uploadandscan-action@c5e63c8383debb26a0d48250eab75d94327635ba
  uses: veracode/veracode-uploadandscan-action@0.2.1
   with:
-    # appname
+  # appname
     appname: GitDemo
-    # createprofile
+  # createprofile
     createprofile: # default is true
-    # filepath
+  # filepath
     filepath: \\C:\Users\Administrator\Desktop\verademo.war
-    # version
+  # version
     version: # default is Scan from Github job: ${{ github.run_id }} 
-    # vid
+  # vid
     vid: fe5dad5e1fc4597db36d21c4e8fd0e08
-    # vkey
+  # vkey
     vkey: 06b4145c56601d3de1c5783ec128f0cde30d87aba3857008cf99a7f67671a121e94413040bf9150724ac024a6d4449efd899c82d0e57426f439aef17d09de70f
-    # true or flase
+  # true or flase
