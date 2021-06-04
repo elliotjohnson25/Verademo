@@ -12,7 +12,7 @@
     # filepath
     filepath: \\C:\Users\Administrator\Desktop\verademo.war
     # version
-    version: # default is Scan from Github job: ${{ github.run_id }}
+    version: # default is Scan from Github job: ${{ github.run_id }} 
     # vid
     vid: fe5dad5e1fc4597db36d21c4e8fd0e08
     # vkey
